@@ -62,7 +62,7 @@ public:
         this->eyeRadius = eyeRadius > 0 ? eyeRadius : 0;
     }
 
-    void draw()
+    void draw() override
     {
         // draw circle
         Circle::draw();
